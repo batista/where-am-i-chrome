@@ -15,9 +15,10 @@
     ]
   },
   "permissions": [
-    "tabs",
-    "http://*/*",
-    "https://*/*"
+    "http://127.0.0.1/*",
+    "https://127.0.0.1/*",
+    "http://localhost/*",
+    "https://localhost/*"
   ],
   "options_ui": {
     "page": "options.html",
@@ -26,8 +27,13 @@
   "content_scripts": [
     {
       "matches": [
-        "http://*/*",
-        "https://*/*"
+        "http://127.0.0.1/*",
+        "https://127.0.0.1/*",
+        "http://localhost/*",
+        "https://localhost/*"
+      ],
+      "css": [
+        "styles/main.css" 
       ],
       "js": [
         "scripts/contentscript.js"
