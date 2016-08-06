@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "Where am I?",
+    "description": "The name of the application"
+  },
+  "appDescription": {
+    "message": "This extension appends a ribbon on top a locally served webpage",
+    "description": "The description of the application"
+  }
+}
